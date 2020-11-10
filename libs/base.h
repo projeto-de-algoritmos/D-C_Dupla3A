@@ -184,7 +184,7 @@ private:
 
 
     static sf::Font * get_default_font(){
-        const std::string _path = "../D-C_Dupla3A/eda_libs/ed_font.ttf";
+        const std::string _path = "../D-C_Dupla3A/libs/font.ttf";
         static sf::Font font;
         static bool init = true;
         if(init){
