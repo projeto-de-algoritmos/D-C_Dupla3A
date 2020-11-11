@@ -1,45 +1,75 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Merge Sort Visualization
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 4<br>
+**Conteúdo da Disciplina**: D&C<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 17/0062686 |  Pedro Rodrigues Pereira |
+| 17/0008371 |  Daniel de Sousa Oliveira Melo Veras |
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+## Sobre
+O projeto tem como objetivo demonstrar a visualização de pontos com diferentes alturas e sua ordenação a partir de um algoritmo de Merge Sort.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+### Antes da ordenação
+
+![01](./docs/preorder.jpg)
+
+### Meio da ordenação
+
+![02](./docs/midorder.jpg)
+
+### Dados ordenados
+
+![03](./docs/posorder.jpg)
+
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C++<br>
+**Framework**: SFML<br>
+<br>
+
+1. Primeiro passo é realizar o download do pacote **sfml**.
+
+    1.1. Para sistemas debian e derivados:
+
+    ```
+    sudo apt-get install libsfml-dev
+    ```
+
+    1.2 Para sistemas arch:
+
+    ```
+    sudo pacman -Syu sfml
+    ```
+
+2. Logo após se deve realizar o download do repositório com o seguinte comando:
+
+```
+$ git clone https://github.com/projeto-de-algoritmos/D-C_MergeSortVisualization.git
+```
+
+
+3. Após o download, acesse a pasta base do projeto:
+
+```
+$ cd D-C_MergeSortVisualization
+```
+
+3. Agora rode o seguinte comando para compilar o projeto
+
+```
+$ make
+```
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Após compilar o projeto, basta rodar o seguinte comando na raiz do projeto:
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+```
+./prog
+```
 
-
-
-
+A partir desse ponto, se faz necessário apertar **Enter** para iniciar a visualização do Merge Sort.
